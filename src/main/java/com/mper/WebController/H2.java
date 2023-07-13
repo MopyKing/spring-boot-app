@@ -25,7 +25,7 @@ public class H2 {
     }
 
     private void seedLogsTable() {
-        logService.save("No Route", "DB Initialzer");
+        logService.save("No Route", "Database Init");
         LOG.info("Logs Seeded");
     }
     //

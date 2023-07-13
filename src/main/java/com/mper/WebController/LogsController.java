@@ -25,9 +25,9 @@ public class LogsController {
         return logService.getAllLog();
     }
 
-    @GetMapping("/transaction")
+    @GetMapping("/create-transaction")
     private String transaction() {
-        logService.save("/transaction");
-        return "New transaction have been made!";
+        logService.save("/create-transaction");
+        return "You Just Created a Transactions";
     }
 }
